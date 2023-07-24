@@ -18,7 +18,7 @@ public class BoutleOfWaterVandingMachine implements VendingMachine{
 
     @Override
     public boolean addProduct(List<Product> productList) {
-        if (products == null) {
+        if (products == null && productList == null){
             return false;
         }
         for (Product item: productList) {

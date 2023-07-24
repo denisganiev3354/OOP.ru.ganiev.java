@@ -4,7 +4,7 @@ public class BoutleOfWater extends Product{
 
     private Double volume;
     public BoutleOfWater(String name, Double cost, Double volume){
-        super(name, cost);
+        super(name, cost, volume);
         getVolume();
     }
     public Double getVolume(){

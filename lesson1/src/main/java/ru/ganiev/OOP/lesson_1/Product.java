@@ -8,7 +8,7 @@ public abstract class Product {
 
 
 
-    public Product(String name, Double cost){
+    public Product(String name, Double cost, Double volume){
         setName(name);
         setCost(cost);
 
