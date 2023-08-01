@@ -10,6 +10,7 @@ public class Market implements MarketBehaviour, QueueBehaviour {
         this.queue = new ArrayList<>();
     }
 
+
     @Override
     public void takeInQueue(Actor actor){
         System.out.println(actor.getName() + " vstal(a) v ochered");

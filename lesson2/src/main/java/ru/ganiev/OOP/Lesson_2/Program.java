@@ -11,5 +11,6 @@ public class Program {
         market.acceptToMarket(human1);
         market.acceptToMarket(human2);
         market.update();
+
     }
 }
