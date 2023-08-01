@@ -4,9 +4,9 @@ public abstract class Actor {
     protected boolean isMakeOrder;
     protected boolean isTakeOrder;
 
-    public abstract void setMakeOrder();
+    public abstract void setMakeOrder(boolean status);
 
-    public abstract void setTakeOrder();
+    public abstract void setTakeOrder(boolean status);
 
     public abstract boolean isMakeOrder();
 
